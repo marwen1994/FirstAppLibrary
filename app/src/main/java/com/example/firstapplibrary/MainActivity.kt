@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        val a =    performAdd( 6 , 2)
+        val a = performAdd( 6 , 2)
         Log.d("result", "$a")
     }
 }
